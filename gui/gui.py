@@ -33,5 +33,23 @@ class Widget(QWidget):
         self.movie.setScaledSize(new_size)
         self.label.resize(new_size)
 
+    #Mouse press event to start dragging
+    def mousePressEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self.is_dragging = True
+            self.drag_position = event.globalPos() - self.frameGeometry().topLeft()
+            event.accept()
+
+
+    def mouseMoveEvent(self, event):
+        if self.is_dragging:
+            self.move(event.globalPos() - self.drag_position)
+            event.accept()
+
+
+    def mouseReleaseEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self.is_dragging = False
+            event.accept()
 
 
