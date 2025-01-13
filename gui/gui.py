@@ -23,11 +23,6 @@ class Widget(QWidget):
         self.movie.start()
 
 
-        #Adjust size to fit the GIF
-        #self.movie.setScaledSize(self.movie.currentPixmap().size())
-        #self.label.setFixedSize(self.movie.scaledSize())
-        #self.setFixedSize(self.label.size())
-
     def resizeEvent(self, event):
 
         new_size = self.size()

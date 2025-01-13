@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from PySide6.QtWidgets import QApplication
 from gui.gui import Widget
 import sys
