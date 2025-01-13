@@ -1,13 +1,17 @@
-from PySide6.QtCore import Qt, QPoint, QSize
+from PySide6.QtCore import Qt
 from PySide6.QtGui import QMovie
 from PySide6.QtWidgets import QWidget, QLabel
 
 
 class Widget(QWidget):
-    def __init__(self, gif_path):
+    def __init__(self, gif_path, parent=None):
         super().__init__()
 
+        #Sets window title
         self.setWindowTitle("PhaesiaTwerk")
+
+        #Sets default window size
+        self.resize(400,400)
 
         #Remove window borders and make background transparent
         self.setWindowFlag(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
@@ -17,12 +21,12 @@ class Widget(QWidget):
         self.label = QLabel(self)
         self.label.setAttribute(Qt.WA_TranslucentBackground)
 
-        #Load/Starts GIF
+        #Loads/Starts GIF
         self.movie = QMovie(gif_path)
         self.label.setMovie(self.movie)
         self.movie.start()
 
-
+    #Makes the window resizable
     def resizeEvent(self, event):
 
         new_size = self.size()
