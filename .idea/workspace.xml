@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6581dc0-b257-4231-8d76-afe108ef692a" name="Changes" comment="Added hashbang to main.py and deleted some commented lines on gui.py">
+    <list default="true" id="b6581dc0-b257-4231-8d76-afe108ef692a" name="Changes" comment="Added a default window size on gui.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +87,7 @@
       <workItem from="1736567047381" duration="307000" />
       <workItem from="1736576115735" duration="2119000" />
       <workItem from="1736578320471" duration="2347000" />
-      <workItem from="1736721020960" duration="13379000" />
+      <workItem from="1736721020960" duration="16909000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Phaesia_Twerk v1.0">
       <option name="closed" value="true" />
@@ -121,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736743602531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a default window size on gui.py">
+      <option name="closed" value="true" />
+      <created>1736744473003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736744473003</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,10 +140,11 @@
     <MESSAGE value="Added requirements.txt, also added Phaesia twerk gif to img." />
     <MESSAGE value="Added missing directory for the gifs." />
     <MESSAGE value="Added hashbang to main.py and deleted some commented lines on gui.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hashbang to main.py and deleted some commented lines on gui.py" />
+    <MESSAGE value="Added a default window size on gui.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a default window size on gui.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Thicc_Lemur$main.coverage" NAME="main Coverage Results" MODIFIED="1736743817961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thicc_Lemur$main.coverage" NAME="main Coverage Results" MODIFIED="1736744902136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Thicc_Lemur$gui.coverage" NAME="gui Coverage Results" MODIFIED="1736580593281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
   </component>
 </project>
